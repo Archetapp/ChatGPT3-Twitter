@@ -14,6 +14,26 @@
 		2628950F2940BC1C00705CE6 /* ChatGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628950E2940BC1C00705CE6 /* ChatGPTTests.swift */; };
 		262895192940BC1C00705CE6 /* ChatGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895182940BC1C00705CE6 /* ChatGPTUITests.swift */; };
 		2628951B2940BC1C00705CE6 /* ChatGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628951A2940BC1C00705CE6 /* ChatGPTUITestsLaunchTests.swift */; };
+		262895282940BC6200705CE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262895272940BC6200705CE6 /* GoogleService-Info.plist */; };
+		2628952B2940BCFA00705CE6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2628952A2940BCFA00705CE6 /* FirebaseAuth */; };
+		2628952D2940BCFA00705CE6 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2628952C2940BCFA00705CE6 /* FirebaseAuthCombine-Community */; };
+		2628952F2940BCFA00705CE6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2628952E2940BCFA00705CE6 /* FirebaseFirestore */; };
+		262895312940BCFA00705CE6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 262895302940BCFA00705CE6 /* FirebaseFirestoreCombine-Community */; };
+		262895332940BCFA00705CE6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 262895322940BCFA00705CE6 /* FirebaseFirestoreSwift */; };
+		262895352940BCFA00705CE6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 262895342940BCFA00705CE6 /* FirebaseStorage */; };
+		262895372940BCFA00705CE6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 262895362940BCFA00705CE6 /* FirebaseStorageCombine-Community */; };
+		262895392940BDDA00705CE6 /* UserAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895382940BDDA00705CE6 /* UserAuthView.swift */; };
+		2628953D2940C05700705CE6 /* UserAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628953C2940C05700705CE6 /* UserAuthController.swift */; };
+		2628953F2940C11F00705CE6 /* UserSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628953E2940C11F00705CE6 /* UserSignUpView.swift */; };
+		262895412940C43700705CE6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895402940C43700705CE6 /* RootView.swift */; };
+		262895452940C4D900705CE6 /* ChatTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895442940C4D900705CE6 /* ChatTabView.swift */; };
+		262895472940C54600705CE6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895462940C54600705CE6 /* HomeView.swift */; };
+		262895492940C6EE00705CE6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895482940C6EE00705CE6 /* ProfileView.swift */; };
+		2628954B2940CD8300705CE6 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628954A2940CD8300705CE6 /* Tweet.swift */; };
+		262895502940CE1900705CE6 /* TweetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628954F2940CE1900705CE6 /* TweetController.swift */; };
+		262895522940D03300705CE6 /* ComposeTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895512940D03300705CE6 /* ComposeTweetView.swift */; };
+		262895542940D74000705CE6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895532940D74000705CE6 /* HomeController.swift */; };
+		262895562940DF9E00705CE6 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262895552940DF9E00705CE6 /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +65,19 @@
 		262895142940BC1C00705CE6 /* ChatGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		262895182940BC1C00705CE6 /* ChatGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTUITests.swift; sourceTree = "<group>"; };
 		2628951A2940BC1C00705CE6 /* ChatGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		262895272940BC6200705CE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		262895382940BDDA00705CE6 /* UserAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthView.swift; sourceTree = "<group>"; };
+		2628953C2940C05700705CE6 /* UserAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthController.swift; sourceTree = "<group>"; };
+		2628953E2940C11F00705CE6 /* UserSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUpView.swift; sourceTree = "<group>"; };
+		262895402940C43700705CE6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		262895442940C4D900705CE6 /* ChatTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTabView.swift; sourceTree = "<group>"; };
+		262895462940C54600705CE6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		262895482940C6EE00705CE6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2628954A2940CD8300705CE6 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		2628954F2940CE1900705CE6 /* TweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetController.swift; sourceTree = "<group>"; };
+		262895512940D03300705CE6 /* ComposeTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeTweetView.swift; sourceTree = "<group>"; };
+		262895532940D74000705CE6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		262895552940DF9E00705CE6 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +85,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262895332940BCFA00705CE6 /* FirebaseFirestoreSwift in Frameworks */,
+				262895372940BCFA00705CE6 /* FirebaseStorageCombine-Community in Frameworks */,
+				2628952B2940BCFA00705CE6 /* FirebaseAuth in Frameworks */,
+				262895312940BCFA00705CE6 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				2628952D2940BCFA00705CE6 /* FirebaseAuthCombine-Community in Frameworks */,
+				2628952F2940BCFA00705CE6 /* FirebaseFirestore in Frameworks */,
+				262895352940BCFA00705CE6 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +136,11 @@
 			isa = PBXGroup;
 			children = (
 				262894FC2940BC1B00705CE6 /* ChatGPTApp.swift */,
-				262894FE2940BC1B00705CE6 /* ContentView.swift */,
+				262895402940C43700705CE6 /* RootView.swift */,
+				2628954D2940CD9B00705CE6 /* Views */,
+				2628954E2940CDA200705CE6 /* Controllers */,
+				2628954C2940CD8F00705CE6 /* Models */,
+				262895272940BC6200705CE6 /* GoogleService-Info.plist */,
 				262895002940BC1C00705CE6 /* Assets.xcassets */,
 				262895022940BC1C00705CE6 /* ChatGPT.entitlements */,
 				262895032940BC1C00705CE6 /* Preview Content */,
@@ -129,6 +173,39 @@
 			path = ChatGPTUITests;
 			sourceTree = "<group>";
 		};
+		2628954C2940CD8F00705CE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2628954A2940CD8300705CE6 /* Tweet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2628954D2940CD9B00705CE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				262895382940BDDA00705CE6 /* UserAuthView.swift */,
+				2628953E2940C11F00705CE6 /* UserSignUpView.swift */,
+				262895442940C4D900705CE6 /* ChatTabView.swift */,
+				262895462940C54600705CE6 /* HomeView.swift */,
+				262895482940C6EE00705CE6 /* ProfileView.swift */,
+				262894FE2940BC1B00705CE6 /* ContentView.swift */,
+				262895512940D03300705CE6 /* ComposeTweetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2628954E2940CDA200705CE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2628953C2940C05700705CE6 /* UserAuthController.swift */,
+				2628954F2940CE1900705CE6 /* TweetController.swift */,
+				262895532940D74000705CE6 /* HomeController.swift */,
+				262895552940DF9E00705CE6 /* ProfileController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +222,15 @@
 			dependencies = (
 			);
 			name = ChatGPT;
+			packageProductDependencies = (
+				2628952A2940BCFA00705CE6 /* FirebaseAuth */,
+				2628952C2940BCFA00705CE6 /* FirebaseAuthCombine-Community */,
+				2628952E2940BCFA00705CE6 /* FirebaseFirestore */,
+				262895302940BCFA00705CE6 /* FirebaseFirestoreCombine-Community */,
+				262895322940BCFA00705CE6 /* FirebaseFirestoreSwift */,
+				262895342940BCFA00705CE6 /* FirebaseStorage */,
+				262895362940BCFA00705CE6 /* FirebaseStorageCombine-Community */,
+			);
 			productName = ChatGPT;
 			productReference = 262894F92940BC1B00705CE6 /* ChatGPT.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 262894F02940BC1B00705CE6;
+			packageReferences = (
+				262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 262894FA2940BC1B00705CE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +324,7 @@
 			files = (
 				262895052940BC1C00705CE6 /* Preview Assets.xcassets in Resources */,
 				262895012940BC1C00705CE6 /* Assets.xcassets in Resources */,
+				262895282940BC6200705CE6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2628953D2940C05700705CE6 /* UserAuthController.swift in Sources */,
+				2628954B2940CD8300705CE6 /* Tweet.swift in Sources */,
+				262895492940C6EE00705CE6 /* ProfileView.swift in Sources */,
 				262894FF2940BC1B00705CE6 /* ContentView.swift in Sources */,
+				262895412940C43700705CE6 /* RootView.swift in Sources */,
 				262894FD2940BC1B00705CE6 /* ChatGPTApp.swift in Sources */,
+				262895542940D74000705CE6 /* HomeController.swift in Sources */,
+				262895562940DF9E00705CE6 /* ProfileController.swift in Sources */,
+				262895392940BDDA00705CE6 /* UserAuthView.swift in Sources */,
+				262895502940CE1900705CE6 /* TweetController.swift in Sources */,
+				262895472940C54600705CE6 /* HomeView.swift in Sources */,
+				2628953F2940C11F00705CE6 /* UserSignUpView.swift in Sources */,
+				262895452940C4D900705CE6 /* ChatTabView.swift in Sources */,
+				262895522940D03300705CE6 /* ComposeTweetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +714,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2628952A2940BCFA00705CE6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2628952C2940BCFA00705CE6 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		2628952E2940BCFA00705CE6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		262895302940BCFA00705CE6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		262895322940BCFA00705CE6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		262895342940BCFA00705CE6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		262895362940BCFA00705CE6 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262895292940BCFA00705CE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 262894F12940BC1B00705CE6 /* Project object */;
 }
